@@ -1,0 +1,202 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ScrollView02"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+<RelativeLayout 
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="wrap_content"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin" >
+    <TextView 
+        android:id="@+id/allChordslist" 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:background="@color/green"        
+        android:text="@string/allChordslist_text"
+        android:textSize="20sp"
+        android:layout_marginTop="10dp"   
+        android:layout_marginBottom="10dp" 
+        android:gravity="center"/>
+    <Button
+        android:id="@+id/allChords_Button1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="loadDChordDetailPage"
+        android:layout_below="@id/allChordslist"
+        android:text="@string/allChords_Button1" />
+
+    <Button
+        android:id="@+id/allChords_Button2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="loadAChordDetailPage"
+        android:layout_below="@id/allChords_Button1"
+        android:text="@string/allChords_Button2" />
+    <Button
+        android:id="@+id/allChords_Button3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="loadEChordDetailPage"
+        android:layout_below="@id/allChords_Button2"
+        android:text="@string/allChords_Button3" />
+    <Button
+        android:id="@+id/allChords_Button4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="loadGChordDetailPage"
+        android:layout_below="@id/allChords_Button3"
+        android:text="@string/allChords_Button4" />
+    <Button
+        android:id="@+id/allChords_Button5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="loadCChordDetailPage"
+        android:layout_below="@id/allChords_Button4"
+        android:text="@string/allChords_Button5" />
+    <Button
+        android:id="@+id/allChords_Button6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="loadAminChordDetailPage"
+        android:layout_below="@id/allChords_Button5"
+        android:text="@string/allChords_Button6" />
+    <Button
+        android:id="@+id/allChords_Button7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="loadEminChordDetailPage"
+        android:layout_below="@id/allChords_Button6"
+        android:text="@string/allChords_Button7" />
+    <Button
+        android:id="@+id/allChords_Button8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="loadDminChordDetailPage"
+        android:layout_below="@id/allChords_Button7"
+        android:text="@string/allChords_Button8" />
+    <Button
+        android:id="@+id/allChords_Button9"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="loadA7ChordDetailPage"
+        android:layout_below="@id/allChords_Button8"
+        android:text="@string/allChords_Button9" />
+    <Button
+        android:id="@+id/allChords_Button10"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="loadB7ChordDetailPage"
+        android:layout_below="@id/allChords_Button9"
+        android:text="@string/allChords_Button10" />
+    <Button
+        android:id="@+id/allChords_Button11"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="loadC7ChordDetailPage"
+        android:layout_below="@id/allChords_Button10"
+        android:text="@string/allChords_Button11" />
+    <Button
+        android:id="@+id/allChords_Button12"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="loadD7ChordDetailPage"
+        android:layout_below="@id/allChords_Button11"
+        android:text="@string/allChords_Button12" />
+    <Button
+        android:id="@+id/allChords_Button13"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="loadE7ChordDetailPage"
+        android:layout_below="@id/allChords_Button12"
+        android:text="@string/allChords_Button13" />
+    <Button
+        android:id="@+id/allChords_Button14"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="loadG7ChordDetailPage"
+        android:layout_below="@id/allChords_Button13"
+        android:text="@string/allChords_Button14" />
+    <Button
+        android:id="@+id/allChords_Button15"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="loadFBarreChordDetailPage"
+        android:layout_below="@id/allChords_Button14"
+        android:text="@string/allChords_Button15" />
+    <Button
+        android:id="@+id/allChords_Button16"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="loadAsus2ChordDetailPage"
+        android:layout_below="@id/allChords_Button15"
+        android:text="@string/allChords_Button16" />
+    <Button
+        android:id="@+id/allChords_Button17"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="loadAsus4ChordDetailPage"
+        android:layout_below="@id/allChords_Button16"
+        android:text="@string/allChords_Button17" />
+    <Button
+        android:id="@+id/allChords_Button18"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="loadDsus2ChordDetailPage"
+        android:layout_below="@id/allChords_Button17"
+        android:text="@string/allChords_Button18" />
+    <Button
+        android:id="@+id/allChords_Button19"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="loadDsus4ChordDetailPage"
+        android:layout_below="@id/allChords_Button18"
+        android:text="@string/allChords_Button19" />
+    <Button
+        android:id="@+id/allChords_Button20"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="loadEsus4ChordDetailPage"
+        android:layout_below="@id/allChords_Button19"
+        android:text="@string/allChords_Button20" />
+    <Button
+        android:id="@+id/allChords_Button21"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="loadDSlashFChordDetailPage"
+        android:layout_below="@id/allChords_Button20"
+        android:text="@string/allChords_Button21" />
+    <Button
+        android:id="@+id/allChords_Button22"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="loadGSlashBChordDetailPage"
+        android:layout_below="@id/allChords_Button21"
+        android:text="@string/allChords_Button22" />
+    <Button
+        android:id="@+id/allChords_Button23"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="loadCSlashGChordDetailPage"
+        android:layout_below="@id/allChords_Button22"
+        android:text="@string/allChords_Button23" />
+    <Button
+        android:id="@+id/allChords_Button24"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="loadPowerGChordDetailPage"
+        android:layout_below="@id/allChords_Button23"
+        android:text="@string/allChords_Button24" />
+    <Button
+        android:id="@+id/allChords_Button25"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="loadPowerCChordDetailPage"
+        android:layout_below="@id/allChords_Button24"
+        android:text="@string/allChords_Button25" />
+    
+</RelativeLayout>
+</ScrollView>

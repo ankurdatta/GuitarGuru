@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="in.davinciapps.guitarguru"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="19" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:logo="@drawable/ic_launcher"
+        android:theme="@style/Theme.AppCompat.Light" >
+        <activity
+            android:name="in.davinciapps.guitarguru.MainActivity"
+            android:label="@string/app_name" 
+            android:theme="@style/Theme.AppCompat.Light"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:name="in.davinciapps.guitarguru.PracticeSessionsChordTransitions"
+                android:screenOrientation="portrait"
+                android:theme="@style/Theme.AppCompat.Light"
+                android:windowSoftInputMode="stateHidden"/>
+        <activity
+            android:name="in.davinciapps.guitarguru.GeneratePracticeSessionDisplay"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.Light"
+            android:windowSoftInputMode="stateHidden"/>
+        <activity
+            android:name="in.davinciapps.guitarguru.GuessTheChordGameDisplay"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.Light"/>
+        <activity
+            android:name="in.davinciapps.guitarguru.GenerateChordListDisplay"
+                android:screenOrientation="portrait"
+                android:theme="@style/Theme.AppCompat.Light"/>
+        <activity
+            android:name="in.davinciapps.guitarguru.BasicEightOpenChordsList"
+                android:screenOrientation="portrait"
+                android:theme="@style/Theme.AppCompat.Light"/>
+        <activity
+            android:name="in.davinciapps.guitarguru.CommonOpenSlashChordsList"
+                android:screenOrientation="portrait"
+                android:theme="@style/Theme.AppCompat.Light"/>
+        <activity
+            android:name="in.davinciapps.guitarguru.DominantSeventhOpenChordsList"
+                android:screenOrientation="portrait"
+                android:theme="@style/Theme.AppCompat.Light"/>
+        <activity
+            android:name="in.davinciapps.guitarguru.SuspendedOpenChordsList"
+                android:screenOrientation="portrait"
+                android:theme="@style/Theme.AppCompat.Light"/>
+        <activity
+            android:name="in.davinciapps.guitarguru.powerChordsList"
+                android:screenOrientation="portrait"
+                android:theme="@style/Theme.AppCompat.Light"/>
+        <activity
+            android:name="in.davinciapps.guitarguru.fChordForBeginnersList"
+                android:screenOrientation="portrait"
+                android:theme="@style/Theme.AppCompat.Light"/>
+        <activity
+            android:name="in.davinciapps.guitarguru.AllChordsList"
+                android:screenOrientation="portrait"
+                android:theme="@style/Theme.AppCompat.Light"/>
+        <activity
+            android:name="in.davinciapps.guitarguru.ChordDetailPage"
+                android:screenOrientation="portrait"
+                android:theme="@style/Theme.AppCompat.Light"/>
+        <activity
+            android:name="in.davinciapps.guitarguru.SettingsPageGuitarGuru"
+                android:screenOrientation="portrait"
+                android:theme="@style/Theme.AppCompat.Light"/>
+    </application>
+
+</manifest>

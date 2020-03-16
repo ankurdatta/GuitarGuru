@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin" >
+    <TextView 
+        android:id="@+id/domSeventhPageHeading" 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:background="@color/green"        
+        android:text="@string/domSeventhPageHeading_text"
+        android:textSize="20sp"
+        android:layout_marginTop="10dp"   
+        android:layout_marginBottom="10dp" 
+        android:gravity="center"/>
+    <Button
+        android:id="@+id/domSeventh_Button1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="loadA7ChordDetailPage"
+        android:layout_below="@id/domSeventhPageHeading"
+        android:text="@string/domSeventh_Button1" />
+
+    <Button
+        android:id="@+id/domSeventh_Button2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/domSeventh_Button1"
+        android:onClick="loadB7ChordDetailPage"
+        android:text="@string/domSeventh_Button2" />
+	
+    <Button
+        android:id="@+id/domSeventh_Button3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/domSeventh_Button2"
+        android:onClick="loadC7ChordDetailPage"
+        android:text="@string/domSeventh_Button3" />
+
+    <Button
+        android:id="@+id/domSeventh_Button4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/domSeventh_Button3"
+        android:onClick="loadD7ChordDetailPage"
+        android:text="@string/domSeventh_Button4" />
+
+    <Button
+        android:id="@+id/domSeventh_Button5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/domSeventh_Button4"
+        android:onClick="loadE7ChordDetailPage"
+        android:text="@string/domSeventh_Button5" />
+
+    <Button
+        android:id="@+id/domSeventh_Button6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/domSeventh_Button5"
+        android:onClick="loadG7ChordDetailPage"
+        android:text="@string/domSeventh_Button6" />
+
+</RelativeLayout>

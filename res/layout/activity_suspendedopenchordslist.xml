@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin" >
+    <TextView 
+        android:id="@+id/susOpenPageHeading" 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:background="@color/green"        
+        android:text="@string/susOpenPageHeading_text"
+        android:textSize="20sp"
+        android:layout_marginTop="10dp"   
+        android:layout_marginBottom="10dp" 
+        android:gravity="center"/>
+    <Button
+        android:id="@+id/susOpen_Button1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="loadAsus2ChordDetailPage"
+        android:layout_below="@id/susOpenPageHeading"
+        android:text="@string/susOpen_Button1" />
+
+    <Button
+        android:id="@+id/susOpen_Button2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/susOpen_Button1"
+        android:onClick="loadAsus4ChordDetailPage"
+        android:text="@string/susOpen_Button2" />
+	
+    <Button
+        android:id="@+id/susOpen_Button3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/susOpen_Button2"
+        android:onClick="loadDsus2ChordDetailPage"
+        android:text="@string/susOpen_Button3" />
+
+    <Button
+        android:id="@+id/susOpen_Button4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/susOpen_Button3"
+        android:onClick="loadDsus4ChordDetailPage"
+        android:text="@string/susOpen_Button4" />
+
+    <Button
+        android:id="@+id/susOpen_Button5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/susOpen_Button4"
+        android:onClick="loadEsus4ChordDetailPage"
+        android:text="@string/susOpen_Button5" />
+
+
+</RelativeLayout>

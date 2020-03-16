@@ -1,0 +1,96 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin" >
+
+    <TextView
+        android:id="@+id/settingsPageHeading"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:background="@color/green"
+        android:gravity="center"
+        android:text="@string/settingsPageHeading_text"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/settingsPage_text1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/settingsPageHeading"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:text="@string/settingsPage_text1"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/settingsPage_text2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/settingsPage_text1"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:text="@string/settingsPage_text2"
+        android:textSize="15sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/settingsPage_text3"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/settingsPage_text2"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:text="@string/settingsPage_text3"
+        android:textSize="15sp"
+        android:textStyle="bold" />
+<TextView
+        android:id="@+id/settingsPage_text5"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:gravity="center"
+        android:textColor="@color/red"
+        android:textStyle="bold" />
+    
+	 <TextView
+        android:id="@+id/settingsPage_text4"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/settingsPage_text5"
+        android:layout_marginBottom="10dp"
+        android:text="@string/settingsPage_text4"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/settingsPage_text6"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/settingsPage_text4"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:text="@string/settingsPage_text6"
+        android:textColor="@color/blue"
+        android:textStyle="bold" />
+
+   
+
+    <ImageView
+        android:id="@+id/settingsPageImage"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="0dp"
+        android:layout_marginTop="10dp"
+        android:layout_above="@id/settingsPage_text6"
+        android:contentDescription="@string/contentDescriptor"
+        android:src="@drawable/ic_launcher" />
+    
+
+</RelativeLayout>

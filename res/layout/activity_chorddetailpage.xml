@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <Button
+        android:id="@+id/chordDetailPage_playButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/green"
+        android:layout_margin="10dp"
+        android:text="@string/chordDisplay_PlayButton"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/chordImageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/chordDetailPage_playButton"
+        android:contentDescription="@string/contentDescriptor" 
+        android:layout_centerHorizontal="true"/>
+
+</RelativeLayout>
